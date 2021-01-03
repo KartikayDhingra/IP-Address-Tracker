@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: none;
+    overflow: hidden;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.top-container{
+    height: 35vh;
+    width: 100%;
+    background-image: url(./images/pattern-bg.png);
+}
+
+.heading{
+    height: 60px;
+}
+
+.heading h2{
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.heading2{
+    padding-top: 20px;
+}
+
+
+.input-group{
+    width: 28%;
+    height: 40px;
+    left: 500px;
+    top: 30px;
+}
+
+.form-control{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+}
+
+.btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: black;
+    height: 48px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: hsl(0, 0%, 17%);
+}
+
+.arrow{
+    height: 16px;
+}
+
+#map{
+    height: 65vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+}
+
+.address{
+    position: relative;
+    background-color: white;
+    width: 60%;
+    position: relative;
+    bottom: 70px;
+    left: 280px;
+    height: 140px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 14px;
+}    
+
+.box{
+    width: 20%;
+    
+}
+
+.vl{
+    border: 0.1px solid hsl(0, 0%, 59%);
+    height: 50px;
+    position: relative; 
+    top: 35px;
+}
+
+.box-heading{
+    position: relative;
+    top: 15px;
+    color: hsl(0, 0%, 59%);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.inner-text{
+    position: relative;
+    top: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+}
